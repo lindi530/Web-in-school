@@ -1,0 +1,84 @@
+#kof {
+    width: 1280px;
+    height: 720px;
+    /* background-color: lightblue; */
+    background-image: url('/static/images/background/0.gif');
+    background-size: 150% 100%;
+    background-position: top;
+    position: absolute;
+}
+
+.kof-head {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.kof-head-hp-0 {
+    width: calc(44%);
+    height: 60px;
+    /* background-color: lightgreen; */
+    margin-left: calc(2%);
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-right: none;
+    
+}
+
+.kof-head-hp-1 {
+    width: calc(44%);
+    height: 60px;
+    /* background-color: lightgreen; */
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-left: none;
+}
+
+.kof-head-timer {
+    width: calc(8%);
+    height: 80px;
+    background-color: orange;
+    box-sizing: border-box;
+    border: 5px solid white;
+
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+
+
+    text-align: center;
+    line-height: 70px;
+    /* 字体居中 */
+
+    user-select: none;
+}
+
+.kof-head-hp-0>div{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+
+.kof-head-hp-1>div{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.kof-head-hp-0>div>div{
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    float: right;
+}
+
+.kof-head-hp-1>div>div{
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+}
